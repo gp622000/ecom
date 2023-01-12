@@ -23,6 +23,14 @@ class Navbar extends React.Component {
             <a href="">
               <li>Account</li>
             </a>
+            <a href="">
+              <li id="img-list">
+                <img
+                  src="https://ecommerce-website-1.netlify.app/img/cart.png"
+                  alt=""
+                />
+              </li>
+            </a>
           </ul>
         </div>
       </div>

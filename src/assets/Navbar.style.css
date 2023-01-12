@@ -1,12 +1,22 @@
+.right-side ul li {
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+#img-list {
+  /* margin-top: 20px; */
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   margin: 0 20%;
 }
 
-.right-side ul li {
-  display: inline-block;
-  margin-right: 20px;
-  list-style-type: none;
-  text-decoration: none;
+.right-side ul li img {
+  width: 40px;
+  height: 40px;
 }
