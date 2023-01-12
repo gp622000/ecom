@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20%;
+}
+
+.right-side ul li {
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+  text-decoration: none;
+}
