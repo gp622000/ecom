@@ -1,7 +1,22 @@
 .home-page {
   background: radial-gradient(#fff, #ffd6d6);
 }
+.feature-product {
+  margin-top: 5%;
+  margin-left: 17%;
+  position: relative;
+}
 
 .main {
   margin-top: 10%;
+}
+
+#feature-prod {
+  width: 20%;
+  font-size: 1.7rem;
+  padding-left: 30px;
+  position: absolute;
+  left: 30%;
+  top: -3%;
+  border-bottom: solid 5px salmon;
 }
