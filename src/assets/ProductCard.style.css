@@ -5,7 +5,6 @@
   box-shadow: rgb(164, 164, 164) 0px 0px 25px 5px;
   border-radius: 10px;
   padding: 20px 10px;
-  cursor: pointer;
 }
 
 .product-item > * {

@@ -1,13 +1,14 @@
 import React from "react";
 import "../assets/ProductCard.style.css";
+import ProductDetails from "./ProductDetails";
 
 class ProductCard extends React.Component {
   render() {
     console.log("props", this.props);
-    const { products } = this.props;
+    const { products, handleClick } = this.props;
     console.log("item", products);
     return (
-      <div className="product-item">
+      <div className="product-item" onClick={handleClick}>
         <div className="product-img">
           <img src={products.image} alt="" srcset="" />
         </div>
